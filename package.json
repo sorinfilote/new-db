@@ -1,0 +1,25 @@
+{
+  "name": "trinnoDuo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend-test": "mocha backend/test.js --exit -b",
+    "backend-nodemon": "nodemon backend/server.js",
+    "backend": "node backend/server.js --use_strict",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "pg": "^7.8.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
